@@ -1,0 +1,9 @@
+.VPMenu {
+  max-height: calc(100vh - 3.7rem);
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
