@@ -9,8 +9,7 @@ export default {
   // injects the slots
   Layout: MyLayout,
   enhanceApp({ app }) {
-    // register global components
-    // app.component('HeatMap', HeatMap)
+    // register global components=
   }
   // Layout() {
   //   return h(DefaultTheme.Layout, null, {

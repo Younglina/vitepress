@@ -14,14 +14,16 @@ module.exports = {
     nav: wyNav,
     sidebar: wySidebar,
     author: 'Younglina',
-    showAccessNumber: true,
-    lastUpdatedText: 'Updated Date',
+    lastUpdatedText: '上次更新时间',
     subSidebar: "auto",
     logo: "/avatar.jpeg", //导航栏左侧头像
     authorAvatar: '/avatar.jpeg',
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
+    },
+    footer: {
+      copyright: 'Copyright © 2021-present Younglina'
     },
     socialLinks: [     // 信息栏展示社交信息
       { icon: 'github', link: "https://github.com/Younglina" },
