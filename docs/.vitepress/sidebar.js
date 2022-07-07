@@ -465,7 +465,12 @@ module.exports = {
                 text: "697.数组的度",
                 title: "697.数组的度",
                 link: "/write/algorithms/leetCode697",
-            }
+            },
+            {
+                text: "200.岛屿数量",
+                title: "200.岛屿数量",
+                link: "/write/algorithms/leetCode200",
+            },
         ],
     }
     ],

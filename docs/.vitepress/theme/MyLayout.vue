@@ -12,9 +12,20 @@ console.log(frontmatter)
 <template>
   <Layout>
     <template #doc-before>
-      {{ frontmatter.title }}
-      {{ frontmatter.date }}
-      <span v-for="item in frontmatter.tags" :key="item">{{ item }}</span>
+      <span class="page-info">✍️{{ frontmatter.author }}</span>
+      <span class="page-info">🕐{{ frontmatter.date }}</span>
+      <span>
+        🔗
+        <span class="page-info" v-for="item in frontmatter.tags" :key="item">{{ item }}</span>
+      </span>
     </template>
   </Layout>
 </template>
+
+<style>
+  .page-info{
+    font-size: 13px;
+    color: #7f7f7f;
+    margin-right: 10px;
+  }
+</style>

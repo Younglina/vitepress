@@ -330,6 +330,10 @@ module.exports = [
                 text: "148.排序链表",
                 link: "/write/algorithms/leetCode148",
             },
+            {
+                text: "200.岛屿数量",
+                link: "/write/algorithms/leetCode200",
+            },
         ],
     },
     {
