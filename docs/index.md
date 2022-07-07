@@ -6,17 +6,42 @@ titleTemplate: Younglina 冲冲冲
 
 hero:
   name: Younglina
-  text: Younglina 冲冲冲
+  # text: Younglina 冲冲冲
   tagline: Younglina写博客的地方.
 
-features:
-- title: 想到再写
-  details: 想到再写
-- title: 想到再写
-  details: 想到再写
-- title: 想到再写
-  details: 想到再写
+# features:
+# - title: 想到再写
+#   details: 想到再写
+# - title: 想到再写
+#   details: 想到再写
+# - title: 想到再写
+#   details: 想到再写
 ---
+
+<!-- <script setup>
+import { useData } from 'vitepress'
+import { unref, ref } from 'vue'
+const { theme } = useData()
+
+const { nav,sidebar } = theme.value
+let totalBlog = 0,allBlog=[]
+for(let i of nav){
+  totalBlog+=(i.items?i.items.length:0)
+  allBlog=allBlog.concat(i.items || [])
+}
+
+</script> -->
+
+<div style="display: flex;justify-content: center;align-items: center;">
+  <img style="margin: 10px;height: 210px;width: 50%" src="https://github-readme-stats.vercel.app/api?username=Younglina&show_icons=true&theme=gruvbox">
+  <img style="margin: 10px;height: 210px;width: 50%" src="https://leetcard.jacoblin.cool/younglina?theme=unicorn&site=cn">
+</div>
+<!-- <h1>{{totalBlog}}--123333</h1> -->
+
+<!-- <div v-for="item in allBlog" :key="item.text">
+  {{item.text}}
+</div> -->
+
 <!-- ---
 layout: home
 

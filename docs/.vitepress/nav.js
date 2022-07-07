@@ -1,6 +1,49 @@
 module.exports = [
     { text: "首页", link: "/" },
     {
+        text: "文档",
+        items: [
+            { text: "Vue3配置", link: "/write/docs/Vue3Config" },
+            { text: "搭建vuepress", link: "/write/docs/VuepressConfig" },
+            { text: "代码规范格式化配置", link: "/write/docs/codeFormat" },
+            { text: "vuepress本地复制代码插件", link: "/write/docs/vuepressPlugin" },
+            { text: "vuepress配置github pages域名访问", link: "/write/docs/githubPages" },
+            { text: "动态规划：为什么是dp[n-2]+dp[n-1]", link: "/write/docs/dp-step", },
+            { text: "学习vue3-nuxt", link: "/write/docs/vue3-nuxt", },
+        ],
+    },
+    {
+        text: "源码阅读",
+        items: [
+            {
+                text: "ElemetUI make new",
+                link: "/write/sourceRead/element-make-new",
+            },
+            { text: "包管理器only-allow", link: "/write/sourceRead/only-allow" },
+        ],
+    },
+    {
+        text: "项目",
+        items: [
+            {
+                text: "electron仿网易云音乐桌面版",
+                link: "/write/project/electron-cloud-music",
+            },
+            {
+                text: "trao开发微信小程序",
+                link: "/write/project/my-trao",
+            },
+            {
+                text: "mpvue仿网易云音乐",
+                link: "/write/project/wx-cloud-music",
+            },
+            {
+                text: "看看吃啥",
+                link: "/write/project/eat",
+            },
+        ],
+    },
+    {
         text: "算法学习",
         items: [
             {
@@ -288,5 +331,30 @@ module.exports = [
                 link: "/write/algorithms/leetCode148",
             },
         ],
+    },
+    {
+        text: "算法模版",
+        items: [
+            {
+                text: "数据有序，相同元素保留 `k` 位模版",
+                link: "/write/algorithms-temp/remove-duplicates",
+            },
+            {
+                text: "滑动窗口模板",
+                link: "/write/algorithms-temp/sliding-window",
+            },
+            {
+                text: "从一个字符串中找另一个字符串模版",
+                link: "/write/algorithms-temp/find-str-in-other",
+            },
+            {
+                text: "树的前中后序遍历",
+                link: "/write/algorithms-temp/traverse-tree",
+            },
+            {
+                text: "蓝红二分模板",
+                link: "/write/algorithms-temp/bluered",
+            }
+        ]
     },
 ]

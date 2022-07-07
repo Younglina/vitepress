@@ -7,7 +7,11 @@ export default {
   ...DefaultTheme,
   // override the Layout with a wrapper component that
   // injects the slots
-  Layout: MyLayout
+  Layout: MyLayout,
+  enhanceApp({ app }) {
+    // register global components
+    // app.component('HeatMap', HeatMap)
+  }
   // Layout() {
   //   return h(DefaultTheme.Layout, null, {
   //     // uncomment to test layout slots
