@@ -471,41 +471,61 @@ module.exports = {
                 title: "200.岛屿数量",
                 link: "/write/algorithms/leetCode200",
             },
+            {
+                text: "394.字符串解码",
+                title: "394.字符串解码",
+                link: "/write/algorithms/leetCode394",
+            },
+            {
+                text: "347.前 K 个高频元素",
+                title: "347.前 K 个高频元素",
+                link: "/write/algorithms/leetCode347",
+            },
+            {
+                text: "873.最长的斐波那契子序列的长度",
+                title: "873.最长的斐波那契子序列的长度",
+                link: "/write/algorithms/leetCode873",
+            },
+            {
+                text: "剑指Offer26.树的子结构",
+                title: "剑指Offer26.树的子结构",
+                link: "/write/algorithms/leetCode_o26.md",
+            },
         ],
     }
     ],
     'write/algorithms-temp/': [{
-            text: "算法模版",
-            title: "算法模版",
-            link: "/",
-            collapsable: false,
-            items: [
-                {
-                    text: "数据有序，相同元素保留 `k` 位模版",
-                    title: "数据有序，相同元素保留 `k` 位模版",
-                    link: "write/algorithms-temp/remove-duplicates",
-                },
-                {
-                    text: "滑动窗口模板",
-                    title: "滑动窗口模板",
-                    link: "write/algorithms-temp/sliding-window",
-                },
-                {
-                    text: "从一个字符串中找另一个字符串模版",
-                    title: "从一个字符串中找另一个字符串模版",
-                    link: "write/algorithms-temp/find-str-in-other",
-                },
-                {
-                    text: "树的前中后序遍历",
-                    title: "树的前中后序遍历",
-                    link: "write/algorithms-temp/traverse-tree",
-                },
-                {
-                    text: "蓝红二分模板",
-                    title: "蓝红二分模板",
-                    link: "write/algorithms-temp/bluered",
-                },
-            ]
-        },
+        text: "算法模版",
+        title: "算法模版",
+        link: "/",
+        collapsable: false,
+        items: [
+            {
+                text: "数据有序，相同元素保留 `k` 位模版",
+                title: "数据有序，相同元素保留 `k` 位模版",
+                link: "write/algorithms-temp/remove-duplicates",
+            },
+            {
+                text: "滑动窗口模板",
+                title: "滑动窗口模板",
+                link: "write/algorithms-temp/sliding-window",
+            },
+            {
+                text: "从一个字符串中找另一个字符串模版",
+                title: "从一个字符串中找另一个字符串模版",
+                link: "write/algorithms-temp/find-str-in-other",
+            },
+            {
+                text: "树的前中后序遍历",
+                title: "树的前中后序遍历",
+                link: "write/algorithms-temp/traverse-tree",
+            },
+            {
+                text: "蓝红二分模板",
+                title: "蓝红二分模板",
+                link: "write/algorithms-temp/bluered",
+            },
+        ]
+    },
     ]
 }

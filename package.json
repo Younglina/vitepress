@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
+    "ac_record": "node lc/getAcRecord.mjs",
     "serve": "vitepress serve docs",
     "deploy": "sh deploy.sh"
   },
@@ -17,6 +18,7 @@
     "vue": "^3.2.37"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "css-doodle": "^0.28.2",
     "ml-heatmap": "^0.0.6"
   }

@@ -3,7 +3,7 @@
 // import { useData } from 'vitepress'
 // import { ref } from 'vue'
 import { MlHeatmap } from 'ml-heatmap'
-import lcData from '../lcData.json'
+import lcData from './lcData.json'
 import 'ml-heatmap/dist/style.css'
 // import CssDoodle from 'css-doodle'
 

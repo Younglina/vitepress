@@ -331,6 +331,10 @@ module.exports = [
                 link: "/write/algorithms/leetCode148",
             },
             {
+                text: "873.最长的斐波那契子序列的长度",
+                link: "/write/algorithms/leetCode873",
+            },
+            {
                 text: "200.岛屿数量",
                 link: "/write/algorithms/leetCode200",
             },
@@ -373,4 +377,13 @@ module.exports = [
             }
         ]
     },
+    // {
+    //     text: "Vue设计与实现读书记录",
+    //     items: [
+    //         {
+    //             text: "3.2 渲染器",
+    //             link: "/write/book/render",
+    //         }
+    //     ]
+    // }
 ]
