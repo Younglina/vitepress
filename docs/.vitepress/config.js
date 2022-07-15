@@ -22,9 +22,9 @@ module.exports = {
       prev: '上一篇',
       next: '下一篇'
     },
-    footer: {
-      copyright: 'Copyright © 2021-present Younglina'
-    },
+    // footer: {
+    //   copyright: 'Copyright © 2021-present Younglina'
+    // },
     socialLinks: [     // 信息栏展示社交信息
       { icon: 'github', link: "https://github.com/Younglina" },
     ]
