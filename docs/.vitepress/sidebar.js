@@ -506,6 +506,16 @@ module.exports = {
                 title: "36.有效的数独",
                 link: "/write/algorithms/leetCode36.md",
             },
+            {
+                text: "40.组合总和II",
+                title: "40.组合总和II",
+                link: "/write/algorithms/leetCode40.md",
+            },
+            {
+                text: "304.二维区域和检索 - 矩阵不可变",
+                title: "304.二维区域和检索 - 矩阵不可变",
+                link: "/write/algorithms/leetCode304.md",
+            },
         ],
     }
     ],
